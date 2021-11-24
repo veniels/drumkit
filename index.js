@@ -49,7 +49,7 @@ function makeSound(key)
             break;
 
             case "sky":
-             var sky = new Audio('sky1.opus');
+             var sky = new Audio('Sky1.opus');
              sky.play();
               break;
 
