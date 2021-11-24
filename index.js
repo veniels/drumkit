@@ -29,37 +29,37 @@ function makeSound(key)
 {
   switch (key) {
     case "marley":
-     var marley = new Audio('sounds/Marley1.opus');
+     var marley = new Audio('Marley1.opus');
      marley.play();
       break;
 
       case "a":
-       var tom2 = new Audio('sounds/tom-2.mp3');
+       var tom2 = new Audio('tom-2.mp3');
        tom2.play();
         break;
 
         case "minnie":
-         var minnie = new Audio('sounds/Minnie2.opus');
+         var minnie = new Audio('Minnie2.opus');
          minnie.play();
           break;
 
           case "d":
-           var tom3 = new Audio('sounds/tom-3.mp3');
+           var tom3 = new Audio('tom-3.mp3');
            tom3.play();
             break;
 
             case "sky":
-             var sky = new Audio('sounds/sky1.opus');
+             var sky = new Audio('sky1.opus');
              sky.play();
               break;
 
               case "k":
-               var tom4 = new Audio('sounds/crash.mp3');
+               var tom4 = new Audio('crash.mp3');
                tom4.play();
                 break;
 
                 case "l":
-                 var snare = new Audio('sounds/snare.mp3');
+                 var snare = new Audio('snare.mp3');
                  snare.play();
                   break;
 
